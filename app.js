@@ -617,11 +617,15 @@ function toggleMobileMenu() {
 // DEPARTURE COUNTDOWN TIMER
 
 function initCountdown() {
-    // Destination launch date: August 6, 2026
-    const departureDate = new Date('August 6, 2026 00:00:00').getTime();
+    // Destination launch date: August 6, 2026 (UTC)
+    const departureDate = Date.UTC(2026, 7, 6, 0, 0, 0);
+    if (Number.isNaN(departureDate)) {
+        console.error('Countdown target date is invalid');
+        return;
+    }
     
     function updateClock() {
-        const now = new Date().getTime();
+        const now = Date.now();
         const difference = departureDate - now;
         
         if (difference < 0) {
