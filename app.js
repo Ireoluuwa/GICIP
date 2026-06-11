@@ -386,7 +386,7 @@ const outfitGalleryData = {
             title: 'Modern Cozy Athleisure',
             description: 'Premium heavyweight hoodie paired with matching jogger trousers, high-top socks, and designer slip-on sneakers. Complemented by a minimalist leather backpack for easy airport transits.',
             items: ['Luxury heavyweight hoodie & joggers', 'Premium leather backpack', 'Supportive white sneakers', 'Travel eye mask'],
-            image: '/outfits/airportMale.png'
+            image: '/outfits/airportMale.png' // Example image URL, replace with actual
         },
         {
             category: 'sightseeing',
