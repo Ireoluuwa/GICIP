@@ -393,7 +393,7 @@ const outfitGalleryData = {
             title: 'Munich Historic Explorer',
             description: 'A breathable linen button-down shirt paired with lightweight chino shorts, polarized sunglasses, and comfortable trainers. Casual, cool, and highly functional.',
             items: ['White or light blue linen shirt', 'Beige chino shorts', 'Ergonomic trainers', 'Polarized sunglasses'],
-            image: '/outfits/sightseeing.png'
+            image: '/outfits/sightseeingMale.png'
         },
         {
             category: 'networking',
