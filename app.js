@@ -617,8 +617,8 @@ function toggleMobileMenu() {
 // DEPARTURE COUNTDOWN TIMER
 
 function initCountdown() {
-    // Destination launch date: July 1, 2026
-    const departureDate = new Date('July 1, 2026 00:00:00').getTime();
+    // Destination launch date: August 6, 2026
+    const departureDate = new Date('August 6, 2026 00:00:00').getTime();
     
     function updateClock() {
         const now = new Date().getTime();
