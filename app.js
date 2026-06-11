@@ -386,28 +386,28 @@ const outfitGalleryData = {
             title: 'Modern Cozy Athleisure',
             description: 'Premium heavyweight hoodie paired with matching jogger trousers, high-top socks, and designer slip-on sneakers. Complemented by a minimalist leather backpack for easy airport transits.',
             items: ['Luxury heavyweight hoodie & joggers', 'Premium leather backpack', 'Supportive white sneakers', 'Travel eye mask'],
-            image: '/outfits/airportMale.png.JPG'
+            image: '/outfits/airportMale.png'
         },
         {
             category: 'sightseeing',
             title: 'Munich Historic Explorer',
             description: 'A breathable linen button-down shirt paired with lightweight chino shorts, polarized sunglasses, and comfortable trainers. Casual, cool, and highly functional.',
             items: ['White or light blue linen shirt', 'Beige chino shorts', 'Ergonomic trainers', 'Polarized sunglasses'],
-            image: '/outfits/sightseeing.png.JPG'
+            image: '/outfits/sightseeing.png'
         },
         {
             category: 'networking',
             title: 'Executive Panel Smart-Casual',
             description: 'A sharp, unstructured navy blazer paired with a crisp white Oxford shirt, slim grey trousers, and brown leather double-monk straps. Professional but highly comfortable.',
             items: ['Navy blue unstructured blazer', 'Crisp white Oxford shirt', 'Tailored grey trousers', 'Leather monk strap shoes'],
-            image: '/outfits/networkingMale.png.JPG'
+            image: '/outfits/networkingMale.png'
         },
         {
             category: 'Sabbath',
             title: 'Parisian Bistro Class',
             description: 'Yup we are going to church, so come with your trad or a nice shirt and a trousers',
             items: ['Charcoal mock-neck sweater', 'Dark indigo slim jeans', 'Suede Chelsea boots', 'Leather strap dress watch'],
-            image: '/outfits/sabbathMale.png.JPG'
+            image: '/outfits/sabbathMale.png'
         },
         {
             category: 'photo-day',
