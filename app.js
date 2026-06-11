@@ -361,8 +361,8 @@ const outfitGalleryData = {
         {
             category: 'Sabbath',
             title: 'Parisian Evening Glow',
-            description: 'You know we will definitly have to go to church, you can bring trad or a gown',
-            items: ['Silk slip dress (Champagne/Black)', 'Cashmere shawl or light cardigan', 'Pointed-toe slingback flats', 'Elegant evening clutch'],
+            description: 'You know we will definitly have to go to church, you can bring traditional attire or a nice summer gown',
+            items: ['Silk slip dress', 'light cardigan', 'flats'],
             image: '/outfits/sabbathGirl.png' // Example image URL, replace with actual
         },
         {
@@ -403,9 +403,9 @@ const outfitGalleryData = {
             image: 'https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=500&q=80'
         },
         {
-            category: 'dinner',
+            category: 'Sabbath',
             title: 'Parisian Bistro Class',
-            description: 'A fitted charcoal mock-neck knit sweater paired with dark wash jeans, a leather belt, and clean Chelsea boots. Smart, polished, and suitable for fine dining.',
+            description: 'Yup we are going to church, so come with your trad or a nice shirt and a trousers',
             items: ['Charcoal mock-neck sweater', 'Dark indigo slim jeans', 'Suede Chelsea boots', 'Leather strap dress watch'],
             image: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=500&q=80'
         },
