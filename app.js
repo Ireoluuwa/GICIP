@@ -905,31 +905,7 @@ function renderGallery(gender) {
                 <span class="gallery-item-tag">${outfit.category.replace('-', ' ')}</span>
             </div>
         `;
-
-        // Attach image error fallback so missing male images gracefully fall back
-        const imgEl = item.querySelector('.gallery-img');
-        if (imgEl) {
-            imgEl.addEventListener('error', function handleImgError() {
-                // Try swapping 'Male' -> 'Girl' in filename first (case-sensitive hosts)
-                try {
-                    const src = this.getAttribute('src') || '';
-                    let fallback = src;
-                    if (src.includes('Male')) {
-                        fallback = src.replace('Male', 'Girl');
-                    } else if (src.endsWith('.png') && !src.includes('Girl')) {
-                        // generic fallback to an existing female image
-                        fallback = '/outfits/photodayGirl.png';
-                    }
-                    if (fallback && fallback !== src) this.src = fallback;
-                    else this.src = '/outfits/photodayGirl.png';
-                } catch (e) {
-                    this.src = '/outfits/photodayGirl.png';
-                }
-                // remove listener to avoid infinite loop
-                this.removeEventListener('error', handleImgError);
-            });
-        }
-
+        
         item.addEventListener('click', () => openLightbox(outfit, gender));
         grid.appendChild(item);
     });
@@ -980,21 +956,6 @@ function openLightbox(outfit, gender) {
     const list = document.getElementById('lightbox-items-list');
     
     img.src = outfit.image;
-    // Fallback handler for live hosts that are case-sensitive or missing male files
-    img.onerror = function() {
-        try {
-            const src = outfit.image || '';
-            if (src.includes('Male')) {
-                this.src = src.replace('Male', 'Girl');
-            } else {
-                this.src = '/outfits/photodayGirl.png';
-            }
-        } catch (e) {
-            this.src = '/outfits/photodayGirl.png';
-        }
-        // avoid recursive errors
-        this.onerror = null;
-    };
     img.alt = outfit.title;
     tag.innerText = outfit.category.replace('-', ' ');
     title.innerText = outfit.title;
