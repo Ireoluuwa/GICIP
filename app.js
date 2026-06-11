@@ -342,42 +342,42 @@ const outfitGalleryData = {
             title: 'Relaxed Classic Trench',
             description: 'A cozy cotton matching lounge set paired with a classic camel trench coat, premium walking sneakers, and a sleek carry-on bag. Perfect for maintaining warmth and looking chic on long flights.',
             items: ['Matching sweatpants and sweatshirt', 'Camel trench coat', 'Supportive white sneakers', 'Premium leather tote bag'],
-            image: 'outfits/airportGirl.png' // Example image URL, replace with actual
+            image: '/outfits/airportGirl.png' // Example image URL, replace with actual
         },
         {
             category: 'sightseeing',
             title: 'Amsterdam Canal Walk',
             description: 'Casual, modern, and high-contrast styling. Straight-leg blue jeans combined with a neutral knit top, a leather cross-body bag, and supportive flats for traversing brick canal paths.',
             items: ['Straight-leg denim', 'Ribbed knit top', 'Flat leather walking shoes', 'Cross-body shoulder bag'],
-            image: 'outfits/sightseeingGirl.png' // Example image URL, replace with actual
+            image: '/outfits/sightseeingGirl.png' // Example image URL, replace with actual
         },
         {
             category: 'networking',
             title: 'Tech Hub Corporate Chic',
             description: 'Tailored neutral blazer paired with matching ankle-length trousers, a silk shell top, and structured gold jewelry. Delivers a highly professional first impression at innovation labs.',
             items: ['Tailored beige blazer', 'Slim trousers', 'Sleek block heels', 'Minimalist watch and gold hoop earrings'],
-            image: 'outfits/networkingGirl.png' // Example image URL, replace with actual
+            image: '/outfits/networkingGirl.png' // Example image URL, replace with actual
         },
         {
             category: 'Sabbath',
             title: 'Parisian Evening Glow',
             description: 'A luxurious silk slip dress layered with a light cashmere shawl, delicate gold necklace, and elegant pointed-toe flats or low heels for dining in Paris.',
             items: ['Silk slip dress (Champagne/Black)', 'Cashmere shawl or light cardigan', 'Pointed-toe slingback flats', 'Elegant evening clutch'],
-            image: 'outfits/sabbathGirl.png' // Example image URL, replace with actual
+            image: '/outfits/sabbathGirl.png' // Example image URL, replace with actual
         },
         {
             category: 'photo-day',
             title: 'Historic Monuments Vignette',
             description: 'A flowing midi dress in a vibrant color that pops against stone architecture (like red or emerald), paired with comfortable wedges and sunglasses for the official program cohort photo day.',
             items: ['Flowing tiered midi dress', 'Comfortable wedge sandals', 'Oversized luxury sunglasses', 'Dainty bracelets'],
-            image: 'outfits/photodayGirl.png' // Example image URL, replace with actual
+            image: '/outfits/photodayGirl.png' // Example image URL, replace with actual
         },
         {
             category: 'cold',
             title: 'Munich Autumn Layering',
             description: 'Heavy wool blend coat layered over a thick turtleneck sweater, thermal leggings under jeans, and leather combat boots. Ideal for cooler weather fronts in Munich.',
             items: ['Wool overcoat (Grey/Beige)', 'Cable-knit turtleneck sweater', 'Waterproof leather boots', 'Warm scarf and wool gloves'],
-            image: 'outfits/coldGirl.png' // Example image URL, replace with actual
+            image: '/outfits/coldGirl.png' // Example image URL, replace with actual
         }
     ],
     male: [
