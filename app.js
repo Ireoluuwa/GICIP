@@ -361,7 +361,7 @@ const outfitGalleryData = {
         {
             category: 'Sabbath',
             title: 'Parisian Evening Glow',
-            description: 'A luxurious silk slip dress layered with a light cashmere shawl, delicate gold necklace, and elegant pointed-toe flats or low heels for dining in Paris.',
+            description: 'You know we will definitly have to go to church, you can bring trad or a gown',
             items: ['Silk slip dress (Champagne/Black)', 'Cashmere shawl or light cardigan', 'Pointed-toe slingback flats', 'Elegant evening clutch'],
             image: '/outfits/sabbathGirl.png' // Example image URL, replace with actual
         },
